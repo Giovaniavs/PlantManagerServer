@@ -1,12 +1,14 @@
 {
-  "name": "PlantManagerServer",
+  "name": "fake-server",
   "version": "1.0.0",
+  "description": "fake server with fake database",
   "main": "server.js",
-  "license": "MIT",
+  "scripts": { 
+    "start": "node server.js"
+  },
+  "author": "Giovani Albuquerque",
+  "license": "ISC",
   "dependencies": {
     "json-server": "^0.16.3"
-  },
-  "scripts": {
-    "start": "node server.js"
   }
 }
